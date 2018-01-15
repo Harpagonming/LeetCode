@@ -1,4 +1,4 @@
-package algorithms.easy;
+package algorithms.easy.FindAllNumbersDisappearedInAnArray;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by cao.zm on 2017/3/6.
  */
-public class FindAllNumbersDisappearedInAnArray {
+public class Solution {
   public List<Integer> findDisappearedNumbers(int[] nums) {
     List<Integer> result = new ArrayList<Integer>();
     for (int i = 0; i < nums.length; i++) {

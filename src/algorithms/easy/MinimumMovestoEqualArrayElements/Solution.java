@@ -1,9 +1,9 @@
-package algorithms.easy;
+package algorithms.easy.MinimumMovestoEqualArrayElements;
 
 /**
  * Created by cao.zm on 2017/3/17.
  */
-public class MinimumMovestoEqualArrayElements {
+public class Solution {
   public int minMoves(int[] nums) {
     int sumInitial = 0;
     int max = nums[0];

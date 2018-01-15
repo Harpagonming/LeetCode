@@ -1,4 +1,4 @@
-package algorithms.easy;
+package algorithms.easy.KeyboardRow;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -8,7 +8,7 @@ import java.util.Set;
 /**
  * Created by cao.zm on 2017/2/28.
  */
-public class KeyboardRow {
+public class Solution {
   public String[] findWords(String[] words) {
     Set<Character> upper = new HashSet<>();
     Set<Character> mid = new HashSet<>();

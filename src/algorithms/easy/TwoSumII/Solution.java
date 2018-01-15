@@ -1,9 +1,9 @@
-package algorithms.easy;
+package algorithms.easy.TwoSumII;
 
 /**
  * Created by cao.zm on 2017/3/14.
  */
-public class TwoSumII {
+public class Solution {
   public int[] twoSum(int[] numbers, int target) {
     int j = numbers.length - 1;
     boolean pivot;

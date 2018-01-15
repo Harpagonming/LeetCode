@@ -1,9 +1,9 @@
-package algorithms.easy;
+package algorithms.easy.NextGreaterElementI;
 
 /**
  * Created by cao.zm on 2017/2/28.
  */
-public class NextGreaterElementI {
+public class Solution {
   public int[] nextGreaterElement(int[] findNums, int[] nums) {
     int[] result = new int[findNums.length];
     int k = 0;

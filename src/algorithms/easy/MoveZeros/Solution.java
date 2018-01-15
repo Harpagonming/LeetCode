@@ -1,9 +1,9 @@
-package algorithms.easy;
+package algorithms.easy.MoveZeros;
 
 /**
  * Created by cao.zm on 2017/3/10.
  */
-public class MoveZeros {
+public class Solution {
   public void moveZeroes(int[] nums) {
     int j = 0;
     for (int i = 0; i < nums.length; i++) {

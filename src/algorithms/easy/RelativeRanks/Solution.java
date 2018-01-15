@@ -1,11 +1,11 @@
-package algorithms.easy;
+package algorithms.easy.RelativeRanks;
 
 import java.util.Arrays;
 
 /**
  * Created by cao.zm on 2017/3/10.
  */
-public class RelativeRanks {
+public class Solution {
   public String[] findRelativeRanks(int[] nums) {
     int[][] pair = new int[nums.length][2];
 

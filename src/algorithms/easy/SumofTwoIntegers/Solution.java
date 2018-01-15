@@ -1,9 +1,9 @@
-package algorithms.easy;
+package algorithms.easy.SumofTwoIntegers;
 
 /**
  * Created by cao.zm on 2017/3/7.
  */
-public class SumofTwoIntegers {
+public class Solution {
   public int getSum(int a, int b) {
     if (b == 0)
       return a;

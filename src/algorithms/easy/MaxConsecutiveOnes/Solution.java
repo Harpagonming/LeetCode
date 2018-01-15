@@ -1,9 +1,9 @@
-package algorithms.easy;
+package algorithms.easy.MaxConsecutiveOnes;
 
 /**
  * Created by cao.zm on 2017/3/2.
  */
-public class MaxConsecutiveOnes {
+public class Solution {
   public int findMaxConsecutiveOnes(int[] nums) {
     int result = 0;
     int count = 0;

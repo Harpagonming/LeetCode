@@ -1,9 +1,9 @@
-package algorithms.easy;
+package algorithms.easy.NumberComplement;
 
 /**
  * Created by cao.zm on 2017/2/27.
  */
-public class NumberComplement {
+public class Solution {
   public int findComplement(int num) {
     int aa = 0;
     int i = 0;

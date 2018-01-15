@@ -1,11 +1,11 @@
-package algorithms.easy;
+package algorithms.easy.AssignCookies;
 
 import java.util.Arrays;
 
 /**
  * Created by cao.zm on 2017/3/13.
  */
-public class AssignCookies {
+public class Solution {
   public int findContentChildren(int[] g, int[] s) {
     int num = 0;
     Arrays.sort(g);

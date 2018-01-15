@@ -1,9 +1,9 @@
-package algorithms.easy;
+package algorithms.easy.ReverseString;
 
 /**
  * Created by cao.zm on 2017/3/1.
  */
-public class ReverseString {
+public class Solution {
   public String reverseString(String s) {
     char[] a = s.toCharArray();
     int i = 0;
