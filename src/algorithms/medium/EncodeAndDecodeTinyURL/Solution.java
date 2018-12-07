@@ -3,7 +3,7 @@ package algorithms.medium.EncodeAndDecodeTinyURL;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Codec {
+public class Solution {
   private static Map<String, String> longUrlIndex = new HashMap<>();
   private static Map<String, String> shortUrlIndex = new HashMap<>();
 
@@ -32,6 +32,6 @@ public class Codec {
   }
 }
 
-// Your Codec object will be instantiated and called as such:
-// Codec codec = new Codec();
+// Your Solution object will be instantiated and called as such:
+// Solution codec = new Solution();
 // codec.decode(codec.encode(url));
